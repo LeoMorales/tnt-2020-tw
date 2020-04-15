@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CicloDeVidaAppTw</string>
+    <string name="mensaje_inicial">Ciclo de vida</string>
+    <string name="texto_boton_compartir">Compartir</string>
+    <string name="texto_boton_principal">Incrementar</string>
+    <string name="titulo_actividad_segunda">OTRA ACTIVIDAD!</string>
+    <string name="textp_boton_siguiente">Siguiente</string>
+</resources>
