@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    TODO #3.1: Recurso xml descripciones -->
+<resources>
+    <string-array name="descripcioneslibros">
+        <item>
+            Todos los fuegos el fuego (1966) ofrece ocho muestras rotundas de la plenitud creadora que alcanzan los cuentos de Cortázar. Desde la exasperada metáfora de las relaciones humanas que es \'La autopista del sur\' hasta la maestría de \'El otro cielo\', Cortázar vuelve a abrir nuevos caminos con relatos que son referencia obligada para sus lectores y para los amantes del cuento en general.
+        </item>
+        <item>
+            La mayoría de los cuentos reunidos en este libro pertenecen al género fantástico. Algunos surgieron a partir de crónicas policiales, de pinturas o simplemente de la visión de algún conventillo; otro explora el efecto que la inmortalidad causaría en los hombres; hay una glosa al Martín Fierro, sueños sobre la identidad personal y fantasías del tiempo.
+        </item>
+        <item>
+            Un fugitivo llega a una isla desierta. No se dice quién lo persigue ni cómo llega. El lugar es extraño: hay una mansión suntuosa, que parece abandonada, en cuyo sótano se conserva reluciente una compleja maquinaria de funciones incomprensibles para él. Cuando la activa, advierte que no está solo, como cree: un grupo de veraneantes, reunidos por un tal Morel, empieza a circular por el lugar como si participaran de una fiesta cuyo ritual parece repetirse indefinidamente.
+        </item>
+    </string-array>
+</resources>
