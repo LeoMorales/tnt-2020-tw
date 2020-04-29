@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/portada_dest">
+
+    <fragment
+        android:id="@+id/portada_dest"
+        android:name="unpsjb.ing.dit.tnt.navigationapp.PortadaFragment"
+        android:label="fragment_portada"
+        tools:layout="@layout/fragment_portada" >
+
+<!--
+        TODO #7.1: Generar accion.
+        Notar acá que el ID se puede repetir, por ejemplo usar next_action y esta va a depender del
+        contexto en el que se utilice.
+-->
+        <action
+            android:id="@+id/action_portada_dest_to_juego_dest"
+            app:destination="@id/juego_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/juego_dest"
+        android:name="unpsjb.ing.dit.tnt.navigationapp.JuegoFragment"
+        android:label="fragment_juego"
+        tools:layout="@layout/fragment_juego" >
+        <!--
+                TODO #7.2: Generar otra accion (agregar transiciones en la vista diseño).
+                La utilizamos para navegar utilizando acciones.
+
+        -->
+        <action
+            android:id="@+id/action_juego_dest_to_finalFragment"
+            app:destination="@id/finalFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="arg_prueba"
+            app:argType="string"
+            android:defaultValue='"Truco"' />
+    </fragment>
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="unpsjb.ing.dit.tnt.navigationapp.FinalFragment"
+        android:label="fragment_final"
+        tools:layout="@layout/fragment_final" >
+        <argument
+            android:name="puntaje_A"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

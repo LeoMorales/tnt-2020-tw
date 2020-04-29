@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavigationApp</string>
+    <string name="hello_portada_fragment">Portada</string>
+    <string name="hello_juego_fragment">Equipos</string>
+    <string name="hello_final_fragment">¿Jugar de nuevo?</string>
+
+    <string name="text_button_siguiente">SIGUIENTE</string>
+    <string name="countdow_inital_text">10</string>
+    <string name="countdown_button_text">-1</string>
+    <string name="bottom_desc_text">restantes</string>
+</resources>
