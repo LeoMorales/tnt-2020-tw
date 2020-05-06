@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AdivinarPelicula</string>
+
+    <string name="comenzar">Adivinar la pelicula</string>
+    <string name="titulo_text">Digalo con mímica!</string>
+    <string name="saltear">Saltear pelicula</string>
+    <string name="jugar_de_nuevo">Jugar otra vez</string>
+    <string name="tu_puntaje">Tu puntaje</string>
+    <string name="jugar_button">Jugar</string>
+    <string name="adivinada">Adivinada!</string>
+    <string name="fin_juego">Fin juego</string>
+    <string name="la_pelicula_es">Película…</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/portadaFragment">
+
+    <fragment
+        android:id="@+id/portadaFragment"
+        android:name="unpsjb.ing.dit.tnt.adivinarpelicula.pantallas.portada.PortadaFragment"
+        android:label="PortadaFragment"
+        tools:layout="@layout/fragment_portada">
+        <action
+            android:id="@+id/action_portada_hacia_juego"
+            app:destination="@id/juegoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/juegoFragment"
+        android:name="unpsjb.ing.dit.tnt.adivinarpelicula.pantallas.juego.JuegoFragment"
+        android:label="JuegoFragment"
+        tools:layout="@layout/fragment_juego">
+        <action
+            android:id="@+id/action_juego_hacia_puntaje"
+            app:destination="@id/puntajeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/puntajeFragment"
+        android:name="unpsjb.ing.dit.tnt.adivinarpelicula.pantallas.puntaje.PuntajeFragment"
+        android:label="PuntajeFragment"
+        tools:layout="@layout/fragment_puntaje">
+        <argument
+            android:name="puntaje_A"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="puntaje_B"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>
