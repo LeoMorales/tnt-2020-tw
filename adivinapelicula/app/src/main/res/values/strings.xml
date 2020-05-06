@@ -10,4 +10,7 @@
     <string name="adivinada">Adivinada!</string>
     <string name="fin_juego">Fin juego</string>
     <string name="la_pelicula_es">Película…</string>
+
+    <string name="formato_pelicula">\"%s\"</string>
+    <string name="formato_puntaje">Puntaje actual: %d</string>
 </resources>

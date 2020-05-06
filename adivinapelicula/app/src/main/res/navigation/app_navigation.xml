@@ -36,5 +36,8 @@
             android:name="puntaje_B"
             app:argType="integer"
             android:defaultValue="0" />
+        <action
+            android:id="@+id/action_puntaje_hacia_juego"
+            app:destination="@id/juegoFragment" />
     </fragment>
 </navigation>
