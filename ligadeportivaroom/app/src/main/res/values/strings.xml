@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LigaDeportiva</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sugerencia_equipo">Equipo…</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="vacio_no_guardado">Equipo no se guarda porque está vacío.</string>
+    <string name="agregar_equipo">Agregar equipo</string>
+
+</resources>
